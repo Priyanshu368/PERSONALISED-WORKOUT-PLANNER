@@ -2,7 +2,7 @@
 
 Many people struggle to stay fit because they don’t have a personal trainer or a workout plan that fits their needs. Hiring a coach is expensive, and most online workout plans are too general.
 
-This project, AI-Powered Fitness Coach, solves this problem by using AI (OpenAI), Python, Streamlit, and LangChain to:
+This project, AI-Powered Fitness Coach, solves this problem by using AI (GEMINI), Python, Streamlit, and LangChain to:
 - Create personalized workout plans based on user details (age, weight, fitness level, goals).
 - Provide AI-powered coaching with real-time advice and fitness tips.
 - Let users chat with an AI fitness coach to ask workout-related questions.
@@ -45,10 +45,6 @@ streamlit run app.py
 6. Optional PDF creation for downloading the workout plan
 6. Plan is stored in session history for future reference
 
-### How to Add to Resume (Bullet Points)
-- Developed an AI-powered fitness coaching app using OpenAI, Python, Streamlit, and LangChain for personalized workout recommendations.
-- Built a chatbot that provides real-time fitness coaching and tailored exercise plans.
-- Integrated AI-driven conversation features using LangChain to enhance user experience.
-- Deployed an interactive web app with Streamlit, allowing users to access fitness guidance easily.
 
-## For Mentorship Connect me here [Click here](https://topmate.io/shivan_kumar1)
+
+
