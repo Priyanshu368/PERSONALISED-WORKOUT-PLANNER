@@ -17,7 +17,7 @@ try:
 
     model = ChatGoogleGenerativeAI(model='gemini-1.5-pro',api_key=gemini_api_key,temperature=0.7)
 except Exception as e:
-    logger.error(f'MODEL INITIALIZATION ERROR: {str(e)}' ,"error")
+    logger.error(f'MODEL INITIALIZATION ERROR: {str(e)}')
                  
 # Define the workout plan  prompt template 
 workout_plan_template = PromptTemplate(
@@ -40,7 +40,7 @@ def  generate_workout(fitness_level,goal,duration ,equipment):
         logger.info('Workout plan successfully generated')
         return response.content # Extract Content
     except Exception as e:
-        logger.error(f' Error Generating Workout: {str(e)}' ,"error")
+        logger.error(f' Error Generating Workout: {str(e)}')
         return f'An Error Occured:{str(e)}'
     
 
